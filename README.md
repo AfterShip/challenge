@@ -1,50 +1,54 @@
-## The challenge for front end developer
----
+challenge-2
+===========
+Don't fork this repo, simply submit your answer via
 
-* Create a new repo, name it by using this shortGUID generator
-* Do NOT fork this repo, as other candidates would be able to see your solution easily.
+https://gist.github.com/
 
+write a method, transform:
 
+```
 
-## How it work?
----
-* You should get our theme files by email
- 
-* You may leave the header, footer as the theme provided.    
+var a =
+	{
+		origin_country_iso3: { message: 'Invalid origin_country_iso3.' },
+		quantity: { message: 'Invalid quantity.' },
+		weight: { message: 'Weight must > 0.' },
+		box: {
+			quantity: { message: 'Invalid quantity.' },
+			weight: { message: 'Weight must > 0.' }
+		},
+		items: [
+			{
+				quantity: { message: 'Invalid quantity.' },
+				weight: { message: 'Weight must > 0.' }
+			},
+			{
+				quantity: { message: 'Invalid quantity.' },
+				weight: { message: 'Weight must > 0.' }
+			}
+		]
+	}
 
-* We expect to use MVC framwork in server side.
- 
-* Using the theme provided, ExpressJS, Less, Jade, to clone our api pages (7 pages) content.
-    
-    https://www.aftership.com/docs/api/4
-    
-    https://www.aftership.com/docs/api/4/trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/post-trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/get-trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/delete-trackings
-    
-    https://www.aftership.com/docs/api/4/last_checkpoint
-    
-    https://www.aftership.com/docs/api/4/last_checkpoint/get-last_checkpoint-slug-tracking_number
+```
 
+to
 
+```
+{ 
+  'origin_country_iso3': 'Invalid origin_country_iso3.',
+  'quantity': 'Invalid quantity.',
+  'weight': 'Weight must > 0.',
+  'box.quantity': 'Invalid quantity.',
+  'box.weight': 'Weight must > 0.',
+  'items[0].quantity': 'Invalid quantity.',
+  'items[0].weight': 'Weight must > 0.',
+  'items[1].quantity': 'Invalid quantity.',
+  'items[1].weight': 'Weight must > 0.'
+}
+```
 
-## What we want to know from the test?
----
-* If you can follow our coding guideline
-  
-     https://github.com/AfterShip/coding-guideline-javascript
-
-* How would you organize your code
-
-* Your coding style
-
-
-
-
-## Help?
----
-am9ic0BhZnRlcnNoaXAuY29t
+Scoring
+===========
+1. follow our coding guideline
+2. use min. line of code
+3. comment lines are exluded
