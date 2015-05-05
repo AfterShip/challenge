@@ -20,12 +20,19 @@ Code a currency exchagne rate `worker`
 #### The worker should:
 Scale horizontally (can run in more than 1 process in many different machines)
 
+## FAQ
+- `consumer worker` is the script to take the job from the queue, in this case is the scraper to get the exchange rate.
+- `seed` is the first data input, say HKD to USD to the queue.
+- `producer worker` is used to `SEED` the data only, it is optional in this challenge.
+- If you don't have xe.com api key, use your own way to get the answer.
+
+
 ## How it work?
 ---
 
 1. Seed your job in beanstalkd, tube_name = your_github_username
 
-##### Sample beanstalk payload for getting HKD to USD currency, you can use any format or content to fit your need.
+##### Sample beanstalk payload for getting HKD to USD currency, you can use any format or modify the payload to fit your need.
 ```
 {
   "from": "HKD",
@@ -35,9 +42,9 @@ Scale horizontally (can run in more than 1 process in many different machines)
 
 2. Code a nodejs worker, get the job from beanstalkd, get the data from xe.com and save it to mongodb. Exchange rate need to be round off to `2` decmicals in `STRING` type.
 	
-	a. If request fail, reput to the tube and delay with 3s.
+	a. If request is failed, reput to the tube and delay with 3s.
 
-	b. If request is done, reput to the tube and delay with 60s.
+	b. If request is succeed, reput to the tube and delay with 60s.
 
 ##### mongodb data:
 ```
@@ -50,12 +57,13 @@ Scale horizontally (can run in more than 1 process in many different machines)
 
 ```
 
-3. Stop the task if you tried 10 succeed attempt or 3 failed attempt.
+3. Stop the task if you tried 10 succeed attempts or 3 failed attempts.
 
-4. NOTICE that the above bs payload is just an example, you should make sure your script can be run as `distributed` system (multiple instances, multi process), and also able to get MULTIPLE currenies if needed. Not only HKD to USD.
+4. Scale horizontally: NOTICE that the above bs payload is just an example, you should make sure your script can be run as `distributed` system (in multiple instances / servers. Using CLUSER mode in NODE.JS DO NOT help)
 
-5. You are coding the `consumer` worker, NEVER use your worker to seed the data. 
+5. You are coding the `consumer worker`, NEVER use your `consumer worker` to `SEED` the data.
 
+6. You can seed the data to the tube with bs console or coding another `producer worker` to `SEED` the data.
 
 
 ## Tools you need
@@ -68,12 +76,13 @@ Scale horizontally (can run in more than 1 process in many different machines)
 
 2. Get a free mongodb server at [mongolab](https://mongolab.com/welcome/)
 
-3. You should need [fivebeans](https://github.com/ceejbot/fivebeans) npm or any tools u like.
+3. You should need [fivebeans](https://github.com/ceejbot/fivebeans) npm or any other npm u like.
 
 4. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
 
-5. Our [cook book](https://github.com/AfterShip/coding-guideline-javascript)
+5. *MUST* follow [cook book](https://github.com/AfterShip/coding-guideline-javascript)
 
+6. *MUST* follow [cook book](https://github.com/AfterShip/jsdoc)
 
 ## Help?
 ---
