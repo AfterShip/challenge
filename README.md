@@ -80,9 +80,9 @@ Scale horizontally (can run in more than 1 process in many different machines)
 
 4. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
 
-5. *MUST* follow [cook book](https://github.com/AfterShip/coding-guideline-javascript)
+5. *MUST* follow [coding guideline](https://github.com/AfterShip/coding-guideline-javascript)
 
-6. *MUST* follow [cook book](https://github.com/AfterShip/jsdoc)
+6. *MUST* follow [coding documentation](https://github.com/AfterShip/jsdoc)
 
 ## Help?
 ---
