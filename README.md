@@ -17,8 +17,11 @@ Code a currency exchagne rate `worker`
 3. If any problem during the get rate attempt, retry it delay with 3s
 4. If failed more than 3 times, give up the job.
 
-#### The worker should:
-Scale horizontally (can run in more than 1 process in many different machines)
+## Requirements
+
+- Scale horizontally (can run in more than 1 process in many different machines)
+- Using [co](https://github.com/tj/co) + [bluebird](https://github.com/petkaantonov/bluebird)
+
 
 ## FAQ
 - `consumer worker` is the script to take the job from the queue, in this case is the scraper to get the exchange rate.
@@ -76,13 +79,12 @@ Scale horizontally (can run in more than 1 process in many different machines)
 
 2. Get a free mongodb server at [mongolab](https://mongolab.com/welcome/)
 
-3. You should need [fivebeans](https://github.com/ceejbot/fivebeans) npm or any other npm u like.
 
-4. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
+3. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
 
-5. *MUST* follow [coding guideline](https://github.com/AfterShip/coding-guideline-javascript)
+4. *MUST* follow [coding guideline](https://github.com/AfterShip/coding-guideline-javascript)
 
-6. *MUST* follow [coding documentation](https://github.com/AfterShip/jsdoc)
+5. *MUST* follow [coding documentation](https://github.com/AfterShip/jsdoc)
 
 ## Help?
 ---
