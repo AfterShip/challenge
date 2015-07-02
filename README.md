@@ -5,7 +5,7 @@
 * Create a new repo, name it by using this shortGUID generator
 * Do NOT fork, as other candidates would be able to see your solution easily.
 * Use [beanstalkd](http://kr.github.io/beanstalkd/), mongodb, nodejs
-* Get the xe.com exchange rate, store it in mongodb for every 1 min.
+* Get the exchange rate from xe.com or other source, store it in mongodb for every 1 min.
 
 
 ## Goal
