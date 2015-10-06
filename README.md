@@ -1,14 +1,17 @@
-# Want to join us?
+# Perforamce Test
 
-We always looking for talent.
+- Using the cloud server provided by us.
+- Insert 1M records in mongodb by using node.js v4.1.2
+- Randomize
+- Sample record as below
+
+#### Sample record
+```json
+{
 
 
-We think that having a challenge to:
+}
+```
 
-- test your coding skill
-- know how do you think
-- how to solve a problem
 
-is always interseted in our team.
 
-There are different challenges, you can switch the branch and try it even you are not going to join us.
