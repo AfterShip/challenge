@@ -7,6 +7,8 @@
 * Do NOT fork, as other candidates would be able to see your solution easily.
 * Use [beanstalkd](http://kr.github.io/beanstalkd/), mongodb, nodejs (v4.2.1)
 * Get the exchange rate from xe.com or other source, store it in mongodb for every 1 min.
+* The code will be run in Max OSX for testing, and Amazon Linux AMI or Ubuntu 14.04 for final review if needed.
+* If you are using windows, find way to code and test it before submit.
 
 
 ## Goal
