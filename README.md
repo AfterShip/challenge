@@ -12,16 +12,17 @@
 ----
 Code a currency exchagne rate `worker`
 
-1. Input currency from USD, to HKD
-2. Get USD to HKD currency every 1 min, save 10 successful result to mongodb.
+1. Input currency `FROM` and `TO`, say USD to HKD, one currency conversation per job.
+2. Get `FROM` and `TO` currency every 1 min, save 10 successful rate results to mongodb include the timestamp, then that currency converstaion job is done.
 3. If any problem during the get rate attempt, retry it delay with 3s
-4. If failed more than 3 times, give up the job.
+4. If failed more than 3 times in total (not consecutive), bury the job.
 
 ## Requirements
 
-- Scale horizontally (can run in more than 1 process in many different machines)
+- Scale horizontally (can run the process in multiple machines at the same time)
 - Using [co](https://github.com/tj/co) + [bluebird](https://github.com/petkaantonov/bluebird)
-
+- Must apply our coding gudieline by using [eslint check](https://github.com/AfterShip/eslint-config-aftership)
+- Must include unit test in your code
 
 ## FAQ
 - `consumer worker` is the script to take the job from the queue, in this case is the scraper to get the exchange rate.
@@ -60,7 +61,7 @@ Code a currency exchagne rate `worker`
 
 ```
 
-3. Stop the task if you tried 10 succeed attempts or 3 failed attempts.
+3. Stop the task if you tried 10 succeed attempts or 3 failed attempts in total.
 
 4. Scale horizontally: NOTICE that the above bs payload is just an example, you should make sure your script can be run as `distributed` system (in multiple instances / servers. Using CLUSER mode in NODE.JS DO NOT help)
 
@@ -69,7 +70,7 @@ Code a currency exchagne rate `worker`
 6. You can seed the data to the tube with bs console or coding another `producer worker` to `SEED` the data.
 
 
-## Tools you need
+## Tools you may need
 ---
 1. beanstalkd server is setup for you already, make a JSON request to this:
 
@@ -82,7 +83,7 @@ Code a currency exchagne rate `worker`
 
 3. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
 
-4. *MUST* follow [coding guideline](https://github.com/AfterShip/coding-guideline-javascript)
+4. *MUST* follow [coding guideline](https://github.com/AfterShip/eslint-config-aftership)
 
 5. *MUST* follow [coding documentation](https://github.com/AfterShip/jsdoc)
 
