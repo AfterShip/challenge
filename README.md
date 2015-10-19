@@ -3,8 +3,9 @@
 
 * DOWNLOAD this repository to your own Github public repository.
 * Create a new repo, name it by using this shortGUID generator
+* REMOVE ALL the content in this readme, don't put anyw wording like "aftership" or "challenge" so that other candidates cannot search your repo and copy your code.
 * Do NOT fork, as other candidates would be able to see your solution easily.
-* Use [beanstalkd](http://kr.github.io/beanstalkd/), mongodb, nodejs
+* Use [beanstalkd](http://kr.github.io/beanstalkd/), mongodb, nodejs (v4.2.1)
 * Get the exchange rate from xe.com or other source, store it in mongodb for every 1 min.
 
 
