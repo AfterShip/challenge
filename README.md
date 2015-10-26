@@ -24,8 +24,9 @@ Code a currency exchagne rate `worker`
 
 - Scale horizontally (can run the process in multiple machines at the same time)
 - Using [co](https://github.com/tj/co) + [bluebird](https://github.com/petkaantonov/bluebird)
-- Must apply our coding gudieline by using [eslint check](https://github.com/AfterShip/eslint-config-aftership)
-- Must include unit test in your code
+- MUST apply our coding gudieline by using [eslint check](https://github.com/AfterShip/eslint-config-aftership)
+- MUST follow [coding documentation](https://github.com/AfterShip/jsdoc)
+- MUST include unit test in your code
 
 ## FAQ
 - `consumer worker` is the script to take the job from the queue, in this case is the scraper to get the exchange rate.
@@ -86,9 +87,6 @@ Code a currency exchagne rate `worker`
 
 3. You may also need [Beanstalk console](https://github.com/ptrofimov/beanstalk_console) or any tools u like.
 
-4. *MUST* follow [coding guideline](https://github.com/AfterShip/eslint-config-aftership)
-
-5. *MUST* follow [coding documentation](https://github.com/AfterShip/jsdoc)
 
 ## Help?
 ---
