@@ -1,50 +1,48 @@
-## The challenge for front end developer
----
+# Want to join us?
 
-* Create a new repo, name it by using this shortGUID generator
-* Do NOT fork this repo, as other candidates would be able to see your solution easily.
+We are always looking for talent.
 
+This challenge aims to:
 
-
-## How it work?
----
-* You should get our theme files by email
- 
-* You may leave the header, footer as the theme provided.    
-
-* We expect to use MVC framwork in server side.
- 
-* Using the theme provided, ExpressJS, Less, Jade, to clone our api pages (7 pages) content.
-    
-    https://www.aftership.com/docs/api/4
-    
-    https://www.aftership.com/docs/api/4/trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/post-trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/get-trackings
-    
-    https://www.aftership.com/docs/api/4/trackings/delete-trackings
-    
-    https://www.aftership.com/docs/api/4/last_checkpoint
-    
-    https://www.aftership.com/docs/api/4/last_checkpoint/get-last_checkpoint-slug-tracking_number
+- Test your coding skill
+- Know how you think
+- How to solve a problem
 
 
-
-## What we want to know from the test?
----
-* If you can follow our coding guideline
-  
-     https://github.com/AfterShip/coding-guideline-javascript
-
-* How would you organize your code
-
-* Your coding style
+## Instructions
+Implement the design from `page.jpg`. Pixel perfection is not the objective, but rather try to capture the look and feel. Find your own way of defining the different parts.
 
 
+### Objectives
 
+- Make it responsive
+- Use semantic and accessible markup
+- All files in the dist folder should be concatenated, minified or otherwise generally optimized
 
-## Help?
----
-am9ic0BhZnRlcnNoaXAuY29t
+## Resources
+Feel free to use the tools of your choice.
+
+### Fonts (from Google fonts):
+- Montserrat bold (Headings)
+- Merriweather normal and normal italic
+
+### Content
+- Use any text content of your liking
+- Feel free to use any images, but for your convenience all images are included in the repo
+
+## Folder structure
+
+Keep the root structure as this:
+
+```
+challenge
+├── dist // <— Concatenated and minified files
+├── index.html
+├── [any build tool files needed]
+└── src // <— Source files
+```
+
+## The page
+
+![image](page.jpg)
+
