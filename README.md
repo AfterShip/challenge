@@ -42,4 +42,7 @@ challenge
 └── src // <— Source files
 ```
 
+## The page
+
+![image](page.jpg)
 
