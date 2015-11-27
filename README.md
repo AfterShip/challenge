@@ -10,7 +10,9 @@ This challenge aims to:
 
 
 ## Instructions
-Implement the design from `page.jpg`. Pixel perfection is not the objective, but rather try to capture the look and feel. Find your own way of defining the different parts.
+- Implement the design from `page.jpg`. Pixel perfection is not the objective, but rather try to capture the look and feel. Find your own way of defining the different parts.
+- DO NOT FORK this repo, please send it your own github repo, generate the project ID by using this [UUID generator](https://www.uuidgenerator.net/) version 1.
+- Please give proper instructions if needed to generate the output files in README.md
 
 
 ### Objectives
