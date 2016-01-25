@@ -1,19 +1,22 @@
-# Performance Test
+## Challenge
 
-- Using the cloud server provided by us.
-- Insert 1M records in mongodb by using node.js v4.3.3
-- Sample record as below
+Design the proper interface of API in SDK, which is friendly to use and easy to maintain.
 
-	```json
-	{
-		count: 1
-	}
-	```
-- Increase the value count from `1` to `1,000,000`
-- console.log the time taken in `ms` after done.
+Code an Android or iOS mobile SDK for the aftership API endpoints:
+
+1. [POST /trackings](https://www.aftership.com/docs/api/4/trackings/post-trackings)
+2. [GET /trackings/:slug/:tracking_number](https://www.aftership.com/docs/api/4/trackings/get-trackings-slug-tracking_number)
 
 
+## Requirements
 
+- Support two endpoint API calls
+- Use Travis CI to run the proper test
+- Handle non-JSON response 
+- Header include `aftership-user-agent`, value example `aftership-ios-sdk 1.0.0` where `1.0.0` is your SDK version number
+- []Rate limit handling](https://www.aftership.com/docs/api/4)
 
+## Question?
+Reply to the email that you got the challenge.
 
-
+Remarks: base on draft version: 1.5.1
