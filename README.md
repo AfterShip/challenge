@@ -19,4 +19,4 @@ Code an Android or iOS mobile SDK for the aftership API endpoints:
 ## Question?
 Reply to the email that you got the challenge.
 
-Remarks: base on draft version: 1.5.1
+
