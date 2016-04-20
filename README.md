@@ -11,7 +11,7 @@ Code an Android or iOS mobile SDK for the aftership API endpoints:
 ## Requirements
 
 - Support two endpoint API calls
-- Use Travis CI to run the proper test
+- Use Travis CI to run the unit tests
 - Handle non-JSON response 
 - Proper documenation
 - Header include `aftership-user-agent`, value example `aftership-ios-sdk 1.0.0` where `1.0.0` is your SDK version number
