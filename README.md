@@ -22,6 +22,10 @@
 	the 13th visit, I should see the google recaptcha
   
 * If I input `123456789` as tracking number, I should see a courier selection menu to ask for proper courier
+  Screenshot like this:
+  ![image](https://cloud.githubusercontent.com/assets/1013507/15465901/79287f04-2109-11e6-93ee-00351ec0d1d8.png)
+
+  If aftership detect the tracking number format fit more than 1 courier, this selection menu will be shown and ask the user to choose the correct courier to track.
 
 * XSS attack should be handled properly
 
