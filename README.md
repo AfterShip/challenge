@@ -1,7 +1,7 @@
 ## Challenge
 Notice that you should do this challenge only AFTER the first interview.
 
-Make a product requirment docuemnts (PRD) for adding revenue model for postmen.com
+Make a product requirements document (PRD) for adding revenue model for postmen.com
 
 
 Here are some assumptions:
