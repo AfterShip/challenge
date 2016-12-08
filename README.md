@@ -8,7 +8,7 @@ That's why we would like to decide few interesting challenges to let you to code
 Our hiring process usually like this:
 
 1. If you are reading this page, probablly we already woould like you to join us.
-2. We expect you will spend 3-4 days to finish one of the [challenges](coding_challenge.md).
+2. We expect you will spend 3-4 days to finish one of the [challenges](./coding_challenge.md).
 3. You will be invited to our office, demo, explain to our team members that you will work with together if you joined.
 
 
@@ -51,4 +51,4 @@ Bonus point (those items are optional):
 Coding Challenge
 ----------------
 
-[Guidelines can be found here.](coding_challenge.md)
+[Guidelines can be found here.](./coding_challenge.md)
