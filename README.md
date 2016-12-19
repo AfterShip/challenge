@@ -1,54 +1,61 @@
-Why we want coding challenge?
-==================================
+# Do you want to get paid and try this challenge?
 
-We believe the best way to tell if you are an good engineer or not, is not from your CV, it should from your code.
+Apply AfterShip's SRE role [here](https://www.aftership.com/jobs)
 
-That's why we would like to decide few interesting challenges to let you to code before you join.
+If we think that you are in good fit, you will be given:
 
-Our hiring process usually like this:
+1. FREE unlimited GCE / AWS credit to try all service / solution that you can think of.
+2. FREE flight / train / ship / taxi ticket to Hong Kong, with min. 1 night hotel near our office
 
-1. If you are reading this page, probablly we already woould like you to join us.
-2. We expect you will spend 3-4 days to finish one of the [challenges](coding-challenge.md).
-3. You will be invited to our office, demo, explain to our team members that you will work with together if you joined.
+What's that for?
+
+You can demostrate, shine your design in front of our engineers and wow them how well you can do.
+
+Don't be surprised if our engineers challenge your solution as well.
 
 
-Readme
-------
-Write your README as if it was for a production service. Include the following items:
+# AfterShip Site Reliability Engineer Challenge
 
-* Description of the problem and solution.
-* Whether the solution focuses on back-end, front-end or if it's full stack.
-* Reasoning behind your technical choices, including architectural. 
-* Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
-* Link to other code you're particularly proud of.
-* Link to your resume or public profile.
-* Link to to the hosted application where applicable.
 
-How we review
--------------
+The objective is to create a 3-tier architecture RESTful API application.
 
-Your application will be reviewed by at least `one` of our engineers. We do take into consideration your experience level.
+The following requirements should be achieved:
 
-**We value quality over feature-completeness**. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
+1. Deploy in AWS or GCE
+2. Monthly uptime SLA 99.99%
+3. High Availiably with data eventually consistency
+4. The API is able to accept a https POST request, and response
 
-The aspects of your code we will assess include:
+	```json
+	{
+	"timestamp": 1482160415,
+	"counter": 1,
+	"message": "Hello world"
+	}
+	```
+	
+	The counter value should be increased by 1 for every request.
+5. Scalable from 1 req / s to 1,000 req / s with min. error rate and timeout value.
+6. Able to manange, patch the architecture easily
 
-* **Architecture**: how clean is the separation between the front-end and the back-end?
-* **Clarity**: does the README clearly and concisely explains the problem and solution? Are technical tradeoffs explained?
-* **Correctness**: does the application do what was asked? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Does object-oriented code follows principles such as the single responsibility principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Security**: are there any obvious vulnerability?
-* **Testing**: how thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change? Are there some unit and some integration tests?
-	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**: is the web interface understandable and pleasing to use? Is the API intuitive?
-* **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+You can use any tools and programming language of your preference.
 
-Bonus point (those items are optional):
 
-* **Scalability**: will technical choices scale well? If not, is there a discussion of those choices in the README? 
-* **Production-readiness**: does the code include monitoring? logging? proper error handling?
+## Deliverable
+The solution should deploy either in AWS or GCE.
 
-Coding Challenge
-----------------
+Free AWS / GCE credit and login info should be given to you by email.
 
-[Guidelines can be found here.](coding-challenge.md)
+Make sure that there is a README on how to install and run the application when you submit the result by email.
+
+
+## How we review
+- `Architecture` - Does it able to provide the features that we want
+- `SLA` - Does it fulfill what we need: 99.99% monthly uptime, any SPoF?
+- `High Availiably` - Is it really able to support HA?
+- `Maintainability` - How easy to deploy the architecture? How easy to patch the security vulnerability, such as Heatbleed bug
+
+## Bonus
+- `Security` - How secure of the system, any weakness?
+- `Benchmark` - How do you do the benchmark? Is it justify? fair?
+ 
