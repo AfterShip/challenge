@@ -5,7 +5,7 @@ Apply AfterShip's SRE role [here](https://www.aftership.com/jobs)
 If we think that you are in good fit, you will be given:
 
 1. FREE unlimited GCE / AWS credit to try all service / solution that you can think of.
-2. FREE flight / train / ship ticket to Hong Kong, with min. 1 night hotel near our office (if you are no in HK)
+2. FREE flight / train / ship ticket to Hong Kong, with min. 1 night hotel near our office (if you are not in HK)
 
 What's that for?
 
@@ -53,7 +53,7 @@ Make sure that there is a README on how to install and run the application when 
 - `Architecture` - Does it able to provide the features that we ask for
 - `SLA` - Does it fulfill what we need: 99.99% monthly uptime, any SPoF?
 - `High Availiably` - Is it really able to support HA?
-- `Maintainability` - How easy to deploy the architecture? How easy to patch the security vulnerability, such as Heatbleed bug
+- `Maintainability` - How easy to deploy the architecture? How easy to patch the security vulnerability, such as Heartbleed bug
 
 ## Bonus
 - `Security` - How secure of the system, any weakness?
