@@ -12,10 +12,10 @@ The application should allow user to list ALL the shipments within their account
 
 
 1. Proper README must be provided
-2. Please store the Sreenshots of the apps as detail as possible in `Screenshots` folder in your repo 
+2. Please store the Screenshots of the apps as detail as possible in `Screenshots` folder in your repo 
 3. Code in native: SWIFT for iOS / JAVA for Android
 4. Unit test must be included
-5. DO NOT fork this repo, must create a new github public repo for your work, so that commit hsitory is retained. We also plan to opensource our iOS and Android mobile app that's why we prefer public repo
+5. DO NOT fork this repo, must create a new github public repo for your work, so that commit history is retained. We also plan to opensource our iOS and Android mobile app that's why we prefer public repo
 6. We value your time, and please don't spend more than 4 days to work on this challenge. You can put in README for the trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
 
 
@@ -23,7 +23,7 @@ The application should allow user to list ALL the shipments within their account
 
 Please send the github URL and built file to our email.
 
-For Android, please complie and attached the APK file to the email.
+For Android, please compile and attached the APK file to the email.
 
 Readme
 ------
@@ -55,11 +55,9 @@ The aspects of your code we will assess include:
 	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
 * **UX**: is the app interface understandable and pleasing to use? Is the API intuitive?
 * **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
-* **Performance**: Any performance tunning? Any speical handling?
+* **Performance**: Any performance tuning? Any special handling?
 
 ## Bonus point (those items are optional):
 
-**Production Ready**: does the code include monitoring? logging? proper error handling?
-- `Benchmark` - How do you do the benchmark? Is it justify? fair?
- 
- 
+* **Production Ready**: does the code include monitoring? logging? proper error handling?
+* **Benchmark**:  How do you do the benchmark? Is it justify? fair?
