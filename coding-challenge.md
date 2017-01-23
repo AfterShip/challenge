@@ -81,7 +81,7 @@ your challenge.
 
 Here are some technologies we are more familiar with:
 
-* JavaScript
+* Node.js
 * PHP
 * Java
 
