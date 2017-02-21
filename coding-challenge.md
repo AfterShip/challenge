@@ -84,7 +84,7 @@ Here are some technologies we are more familiar with:
 * Node.js
 * PHP
 * Java
-* Ruby / RoR
+* Ruby
 
 You are also free to use any web framework. If you choose to use a framework
 that results in boilerplate code in the repository, please detail in your
