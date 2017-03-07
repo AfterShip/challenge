@@ -33,15 +33,17 @@ Your application will be reviewed by at least `one` of our engineers. We do take
 
 The aspects of your code we will assess include:
 
-* **Architecture**: how clean is the separation between the front-end and the back-end?
-* **Clarity**: does the README clearly and concisely explains the problem and solution? Are technical tradeoffs explained?
-* **Correctness**: does the application do what was asked? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Does object-oriented code follows principles such as the single responsibility principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Security**: are there any obvious vulnerability?
-* **Testing**: how thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change? Are there some unit and some integration tests?
-	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**: is the web interface understandable and pleasing to use? Is the API intuitive?
-* **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+
+Weight | Category | Description
+--- | --- | ---
+Medium | Architecture | How clean is the separation between the front-end and the back-end? Are choices of libraries, databases, tools etc. appropriate for the chosen application?
+High | Communication | Does the README clearly and concisely explain the problem, solution, and areas for review? Are choices, remaining TODOs, and technical tradeoffs explored and explained? Was there clear communication and expectation setting with us during the process?
+High | Code Quality | Is the code simple, easy to understand/extend, reuseable and maintainable? Would it pass a code review? Are there any code smells or other red flags? Is the coding style consistent with the language’s guidelines? Is it consistent throughout the codebase? Is there good logging? Is it easy to debug?
+V. High | Functionality | Does the application do what was asked? If there is anything missing, does the README explain why it is missing? You will gain extra points if you go above and beyond in implementing additional helpful features. Think carefully about the intended user.
+Low | Security | Are there any obvious vulnerability?
+Medium | Testability  | How thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change? Are there some unit and some integration tests? We’re not looking for full coverage (given time constraints) but trying to get a feel for your testing skills.
+Low | UX | Is the web interface understandable and pleasing to use? Is the API intuitive?
+Medium | Technical choices | Choose of libraries, databases, framework etc. seem appropriate for the chosen application?
 
 Bonus point (those items are optional):
 
