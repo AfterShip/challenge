@@ -14,7 +14,7 @@ Prototype **one** of the following projects:
 
 1. Exchange Rate
 2. SF Movies
-3. Email Service
+3. Email Service API
 
 The UX/UI is totally up to you. If you like, get creative and add additional
 features a user might find useful!
@@ -36,12 +36,15 @@ search.
 The data is available on [DataSF](http://www.datasf.org/): [Film
 Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am).
 
-### Email Service
+### Email Service API
 
-Create a service that accepts the necessary information and sends emails. It
-should provide an abstraction between two different email service providers.
-If one of the services goes down, your service can quickly failover to
-a different provider without affecting your customers.
+1. Create an email npm package, which can be open source and reuseable in any other services.
+  
+   The package should provide an abstraction between multiple email service providers.
+  
+   If one of the services goes down, it can quickly failover to a another provider without affecting your customers.
+
+2. Create a service that accepts the necessary information and sends emails via RESTful API.
 
 Example Email Providers:
 
@@ -79,7 +82,8 @@ Therefore, feel free to mention in your `README` how much experience you have
 with the technical stack you choose, we will take note of that when reviewing
 your challenge.
 
-Here are some technologies we are more familiar with:
+Here are some technologies we are more familiar with.
+Unless request by us, you can chooose any language to work on the challenge.
 
 * Node.js
 * PHP
