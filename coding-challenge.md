@@ -44,7 +44,7 @@ Locations](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in
   
    If one of the services goes down, it can quickly failover to a another provider without affecting your customers.
 
-2. Create a service that accepts the necessary information and sends emails via RESTful API.
+2. Create a RESTful API that accepts the necessary information and sends emails via the created npm package, if you like, you can build an UI to use that RESTful API.
 
 Example Email Providers:
 
