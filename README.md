@@ -13,7 +13,7 @@ The application should allow user to list ALL the shipments within their account
 
 1. Proper README must be provided
 2. Please store the Screenshots of the apps as detail as possible in `Screenshots` folder in your repo 
-3. Code in native: SWIFT for iOS / JAVA for Android
+3. Code in: SWIFT for iOS or JAVA for Android or React Navtive for both iOS and Android
 4. Unit test must be included
 5. DO NOT fork this repo, must create a new github public repo for your work, so that commit history is retained. We also plan to opensource our iOS and Android mobile app that's why we prefer public repo
 6. We value your time, and please don't spend more than 4 days to work on this challenge. You can put in README for the trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
