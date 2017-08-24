@@ -1,7 +1,7 @@
 ## The challenge
 ---
 
-* DOWNLOAD this repository to your own Github public repository.
+* DOWNLOAD (NOT fork) this repository to your own Github public repository.
 * Create a new repo, name it by using this shortGUID generator
 * REMOVE ALL the content in this readme, don't put anyw wording like "aftership" or "challenge" so that other candidates cannot search your repo and copy your code.
 * Do NOT fork, as other candidates would be able to see your solution easily.
@@ -22,8 +22,8 @@ Code a currency exchagne rate `worker`
 
 ## Requirements
 
-- Scale horizontally (can run the process in multiple machines at the same time)
-- Using [co](https://github.com/tj/co) + [bluebird](https://github.com/petkaantonov/bluebird)
+- Scale horizontally (can run the process in multiple instances at the same time)
+- Use node >= v6 only
 - MUST apply our coding gudieline by using [eslint check](https://github.com/AfterShip/eslint-config-aftership)
 - MUST follow [coding documentation](https://github.com/AfterShip/jsdoc)
 - MUST include unit test in your code
