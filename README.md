@@ -54,6 +54,7 @@ Make sure that there is a README on how to install and run the application when 
 - `SLA` - Does it fulfill what we need: 99.99% monthly uptime, any SPoF?
 - `High Availiably` - Is it really able to support HA?
 - `Maintainability` - How easy to deploy the architecture? How easy to patch the security vulnerability, such as Heartbleed bug
+- `Documentation` - Explain what and why the stacks / technology you choose. Any difficulties / challenge for you. What did you learn from this challenge?
 
 ## Bonus
 - `Security` - How secure of the system, any weakness?
