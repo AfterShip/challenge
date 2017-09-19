@@ -4,7 +4,7 @@ Apply AfterShip's SRE role [here](https://www.aftership.com/jobs)
 
 If we think that you are in good fit, you will be given:
 
-1. FREE unlimited GCE / AWS credit to try all service / solution that you can think of.
+1. FREE unlimited GCP / AWS credit to try all service / solution that you can think of.
 2. FREE flight / train / ship ticket to Hong Kong, with min. 1 night hotel near our office (if you are not in HK)
 
 What's that for?
@@ -21,7 +21,7 @@ The objective is to create a 3-tier architecture RESTful API application.
 
 The following requirements should be achieved:
 
-1. Deploy in AWS or GCE
+1. Deploy in AWS or GCP
 2. Monthly uptime SLA 99.99%
 3. High Availiably with data eventually consistency
 4. The API is able to accept a https POST request, and response
@@ -42,9 +42,9 @@ You can use any tools and programming language of your preference.
 
 
 ## Deliverable
-The solution should deploy either in AWS or GCE.
+The solution should deploy either in AWS or GCP.
 
-Free AWS / GCE credit and login info should be given to you by email.
+Free AWS / GCP credit and login info should be given to you by email.
 
 Make sure that there is a README on how to install and run the application when you submit the result by email.
 
