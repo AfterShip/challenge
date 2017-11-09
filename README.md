@@ -8,7 +8,7 @@ That's why we would like to decide few interesting challenges to let you to code
 Our hiring process usually like this:
 
 1. If you are reading this page, probablly we already woould like you to join us.
-2. We expect you will spend 3-4 days to finish one of the [challenges](coding-challenge.md).
+2. We expect you will spend 1-2 days to finish one of the [challenges](coding-challenge.md).
 3. You will be invited to our office, demo, explain to our team members that you will work with together if you joined.
 
 
@@ -30,6 +30,11 @@ How we review
 Your application will be reviewed by at least `one` of our engineers. We do take into consideration your experience level.
 
 **We value quality over feature-completeness**. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code. You should consider this code ready for final review with your colleague, i.e. this would be the last step before deploying to production.
+
+**Demonstrate your skill set as much as possible** This challenge is NOT looking for functional. The goal is to show your skill set to us, let us know why do you do in this way, how do you approach the problem.
+
+If you are strong at design pattern, please demonstrate in your code, so that we can understand how good it is.
+If you care about security, please make a proper design so that we know what are the best practices for secruity.
 
 The aspects of your code we will assess include:
 
