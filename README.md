@@ -7,7 +7,7 @@ That's why we would like to decide few interesting challenges to let you to code
 
 Our hiring process usually like this:
 
-1. If you are reading this page, probablly we already woould like you to join us.
+1. If you are reading this page, probablly we already would like you to join us.
 2. We expect you will spend 1-2 days to finish one of the [challenges](coding-challenge.md).
 3. You will be invited to our office, demo, explain to our team members that you will work with together if you joined.
 
