@@ -36,7 +36,7 @@
 			throw new Error('config.number_of_token_per_job is undefined.');
 		}
 
-		this.config = _.merge(default_config, this.config);
+		this.config = _.merge(this.config, default_config);
 	}
 
 	/**
